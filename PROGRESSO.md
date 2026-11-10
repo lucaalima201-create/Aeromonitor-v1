@@ -46,7 +46,7 @@ Não foi testado em celular físico nem em Chrome/Firefox/Safari.
 - Preço/taxas na **cotação** continuam em campos numéricos simples (não usam o novo campo monetário).
 - `/solicitacoes/:id` agora é a tela de detalhe; contador de alertas da barra lateral ainda só carrega após abrir o Dashboard.
 - Propostas e Monitoramento: apenas verificado que abrem e que Propostas gera o texto com a cotação nova; não houve mudança de código neles.
-- Sem Git/GitHub configurado (nada publicado). `.gitignore` agora ignora `e2e-shots/`. Backups JSON contêm dados de clientes: não versionar.
+- Git/GitHub configurado e repositório público: https://github.com/lucaalima201-create/Aeromonitor-v1. `.gitignore` ignora `e2e-shots/` e padrões de backup. Backups JSON contêm dados de clientes: não versionar.
 
 ## Simplificação do formulário "Registrar Cotação" (09/11/2026, 2ª rodada)
 - **Voo de ida** e **Voo de volta** agora têm só *Data de partida* e *Horário de partida*, lado a lado (2 colunas, inclusive no celular). Ida continua obrigatória; volta continua opcional (se preencher a data, exige o horário e vice-versa).
