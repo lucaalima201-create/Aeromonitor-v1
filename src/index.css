@@ -1,0 +1,47 @@
+/* AeroMonitor AI — Estilos Globais */
+@import "tailwindcss";
+
+/* Variáveis de marca */
+:root {
+  --brand-primary: #1e40af;
+  --brand-secondary: #0ea5e9;
+}
+
+/* Scroll suave global */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Transições padrão */
+* {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Print: ocultar navegação */
+@media print {
+  nav, aside, .no-print {
+    display: none !important;
+  }
+}
