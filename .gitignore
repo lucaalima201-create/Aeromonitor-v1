@@ -30,3 +30,7 @@ e2e-shots/
 .env
 .env.*
 !.env.example
+
+# Backups exportados com informacoes pessoais
+/aeromonitor-backup-*.json
+/backups/
